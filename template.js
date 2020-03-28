@@ -28,6 +28,6 @@ export default class {{template}} extends Component {
 }
 
 // 指定 props 的默认值
-Greeting.defaultProps = {
+{{template}}.defaultProps = {
   // name: 'Stranger'
 };
