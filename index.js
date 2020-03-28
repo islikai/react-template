@@ -1,5 +1,16 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+
+const mapStateToProps = state => {
+  return {}
+}
+
+const mapDispatchToProps = (dispatch) => {
+  return {}
+}
+
+@connect(mapStateToProps, mapDispatchToProps);
 
 export default class {{template}} extends Component {
   constructor(props) {
